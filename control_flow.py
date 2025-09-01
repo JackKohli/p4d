@@ -6,11 +6,15 @@
 #     print("you're the right side of 30")
 
 grade = int(input("what was your score? "))
+if grade > 100:
+    print("extra credit?")
 if grade >= 90:
     print("A grade")
 elif grade >= 80:
     print("B grade")
 elif grade >= 70:
     print("C grade")
-else:
+elif grade >= 0:
     print("Fail")
+else:
+    print("how did you manage a negative score?")
