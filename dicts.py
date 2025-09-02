@@ -6,11 +6,9 @@ my_dict = {
 
 customers = []
 
-exit = False
-
 print("type names to add to customer list or exit to stop")
 
-while not exit:
+while True:
     first_name = input("first name: ")
     if first_name == "exit":
         break
